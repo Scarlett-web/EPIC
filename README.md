@@ -21,7 +21,7 @@
   
   cd EPIC-Reproduction
   
-2. 配置环境
+# 2. 配置环境
 建议使用 Conda 创建独立的 Python 3.8 环境，防止污染本地环境。
   #1. 创建环境
     conda create -n epic_env python=3.8 -y
@@ -32,19 +32,19 @@
   #3. 安装依赖 (一定要用这个命令，包含了我修复后的版本)
    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
    
-3. 填写 API Key (关键)
+# 3. 填写 API Key (关键)
 出于安全考虑，代码中的 API Key 是空的。请联系 @Scarlett-web 获取 Key，或注册 DeepSeek 自行申请。
 打开文件：synthetic-tabular-LLM/codes/SyntheticDataGeneration/generate_samples_Sick.py
   # 请将你的 Key 填入引号中
   my_deepseek_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-4. 运行数据生成
+# 4. 运行数据生成
 进入脚本目录并运行：
-  # 进入代码目录
+  #进入代码目录
   cd synthetic-tabular-LLM/codes/SyntheticDataGeneration
   
-  # 运行生成脚本
+  #运行生成脚本
   python generate_samples_Sick.py
-5. 预期结果
+# 5. 预期结果
 如果运行成功，你将看到进度条：
   Loading data from ../../data/realdata/Sick...
   Applying Unique Variable Mapping strategy...
@@ -53,7 +53,7 @@
   ...
   ✅ Done! Synthetic data saved to: ../../data/syndata/Sick_DeepSeek_EPIC/Sick_samples.csv
 
-项目结构：
+# 项目结构：
     EPIC-Reproduction/
   ├── synthetic-tabular-LLM/
   │   ├── codes/
@@ -67,16 +67,16 @@
   ├── requirements.txt                  # 环境依赖列表
   └── README.md                         # 项目说明
 
-  📋 下一步计划
-  [x]跑通核心生成代码 (Data Synthesis)
+# 下一步计划
+  [√]跑通核心生成代码 (Data Synthesis)
   
-  [x] 解决 API 连接与解析 Bug
+  [√] 解决 API 连接与解析 Bug
   
   [ ] 运行下游分类任务 (Classification)，验证数据质量 (F1 Score)
   
   [ ] 尝试其他数据集 (可选)
   
-  Troubleshooting:
+# Troubleshooting:
   
   如果报错 402 Insufficient Balance：DeepSeek 余额不足，请充值（几块钱即可）。
   
