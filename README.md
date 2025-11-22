@@ -18,7 +18,9 @@
 请严格按照以下步骤配置环境，确保代码能跑通。
 # 1. 克隆仓库
   git clone https://github.com/Scarlett-web/EPIC-Reproduction.git
+  
   cd EPIC-Reproduction
+  
 2. 配置环境
 建议使用 Conda 创建独立的 Python 3.8 环境，防止污染本地环境。
   #1. 创建环境
