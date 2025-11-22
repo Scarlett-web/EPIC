@@ -16,19 +16,20 @@
 增加了正则表达式清洗功能，解决了 DeepSeek 输出废话导致 Pandas 解析失败的问题。
 🚀 快速开始 (队友必读)
 请严格按照以下步骤配置环境，确保代码能跑通。
-1. 克隆仓库
+# 1. 克隆仓库
   git clone https://github.com/Scarlett-web/EPIC-Reproduction.git
   cd EPIC-Reproduction
 2. 配置环境
 建议使用 Conda 创建独立的 Python 3.8 环境，防止污染本地环境。
-  # 1. 创建环境
+  #1. 创建环境
     conda create -n epic_env python=3.8 -y
   
-  # 2. 激活环境
+  #2. 激活环境
     conda activate epic_env
   
-  # 3. 安装依赖 (一定要用这个命令，包含了我修复后的版本)
-  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  #3. 安装依赖 (一定要用这个命令，包含了我修复后的版本)
+   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+   
 3. 填写 API Key (关键)
 出于安全考虑，代码中的 API Key 是空的。请联系 @Scarlett-web 获取 Key，或注册 DeepSeek 自行申请。
 打开文件：synthetic-tabular-LLM/codes/SyntheticDataGeneration/generate_samples_Sick.py
