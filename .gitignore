@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-epic_env/ 
-__pycache__/ 
-.env 
-*.key 
-=======
+# Project specific
+epic_env/
+*.key
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -211,4 +209,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
->>>>>>> aaa6f14c79fc83ffed88f59b9d30bca2d31b31c9
+
+# Large data files (optional - uncomment if needed)
+# *.csv
+# *.zip

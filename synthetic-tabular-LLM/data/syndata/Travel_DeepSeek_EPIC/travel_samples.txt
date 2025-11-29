@@ -1,0 +1,220 @@
+
+[SYSTEM INSTRUCTION]
+You are a strict tabular data generator. 
+Your task is to generate new synthetic data samples that follow the EXACT format, distribution, and unique encoding patterns of the few-shot examples provided below.
+
+RULES:
+1. Output ONLY the CSV data rows.
+2. Do NOT include any explanations, analysis, headers, or introductory text.
+3. Do NOT use Markdown formatting (no ```csv ... ```).
+4. Each line must be a valid comma-separated value string.
+5. Generate exactly 20 lines of new data.
+
+[DATA DESCRIPTION]
+Target: whether the customer purchased travel insurance (0 = No, 1 = Yes),
+Age: age of the customer,
+Employment Type: employment status of the customer,
+GraduateOrNot: whether the customer is a graduate,
+AnnualIncome: annual income of the customer,
+FamilyMembers: number of family members,
+ChronicDiseases: whether the customer has chronic diseases (0 = No, 1 = Yes),
+FrequentFlyer: whether the customer is a frequent flyer,
+EverTravelledAbroad: whether the customer has ever travelled abroad.
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+{v0}{v1}{v2}{v3}{v4}{v5}{v6}{v7}{v8}{v9}{v10}{v11}{v12}{v13}{v14}
+B.
+{v15}{v16}{v17}{v18}{v19}{v20}{v21}{v22}{v23}{v24}{v25}{v26}{v27}{v28}{v29}
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+{v30}{v31}{v32}{v33}{v34}{v35}{v36}{v37}{v38}{v39}{v40}{v41}{v42}{v43}{v44}
+B.
+{v45}{v46}{v47}{v48}{v49}{v50}{v51}{v52}{v53}{v54}{v55}{v56}{v57}{v58}{v59}
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+{v60}{v61}{v62}{v63}{v64}{v65}{v66}{v67}{v68}{v69}{v70}{v71}{v72}{v73}{v74}
+B.
+{v75}{v76}{v77}{v78}{v79}{v80}{v81}{v82}{v83}{v84}{v85}{v86}{v87}{v88}{v89}
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+{v90}{v91}{v92}{v93}{v94}{v95}{v96}{v97}{v98}{v99}{v100}{v101}{v102}{v103}{v104}
+B.
+{v105}{v106}{v107}{v108}{v109}{v110}{v111}{v112}{v113}{v114}{v115}{v116}{v117}{v118}{v119}
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+
+===
+
+[SYSTEM INSTRUCTION]
+You are a strict tabular data generator. 
+Your task is to generate new synthetic data samples that follow the EXACT format, distribution, and unique encoding patterns of the few-shot examples provided below.
+
+RULES:
+1. Output ONLY the CSV data rows.
+2. Do NOT include any explanations, analysis, headers, or introductory text.
+3. Do NOT use Markdown formatting (no ```csv ... ```).
+4. Each line must be a valid comma-separated value string.
+5. Generate exactly 20 lines of new data.
+
+[DATA DESCRIPTION]
+Target: whether the customer purchased travel insurance (0 = No, 1 = Yes),
+Age: age of the customer,
+Employment Type: employment status of the customer,
+GraduateOrNot: whether the customer is a graduate,
+AnnualIncome: annual income of the customer,
+FamilyMembers: number of family members,
+ChronicDiseases: whether the customer has chronic diseases (0 = No, 1 = Yes),
+FrequentFlyer: whether the customer is a frequent flyer,
+EverTravelledAbroad: whether the customer has ever travelled abroad.
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+I6E,26,W80,QD4,750000,5,1,ED3,D28
+I6E,28,W80,QD4,1200000,5,0,ED3,D28
+I6E,27,WS8,QD4,750000,5,0,ED3,D28
+I6E,28,W80,QD4,700000,8,1,M0Z,D28
+I6E,28,W80,QD4,550000,5,0,M0Z,D28
+I6E,31,W80,QD4,900000,5,1,M0Z,D28
+I6E,30,W80,FMO,650000,7,0,ED3,D28
+I6E,34,W80,QD4,1050000,3,0,ED3,D28
+I6E,29,W80,QD4,1050000,6,0,ED3,D28
+I6E,28,W80,QD4,800000,5,1,ED3,D28
+I6E,28,W80,QD4,500000,3,0,ED3,D28
+I6E,31,W80,QD4,1250000,6,0,ED3,D28
+I6E,31,WS8,QD4,1200000,6,0,ED3,D28
+I6E,31,WS8,QD4,400000,3,0,ED3,D28
+I6E,27,W80,FMO,600000,4,0,M0Z,D28
+
+B.
+LNU,28,W80,QD4,500000,5,1,ED3,D28
+LNU,25,W80,QD4,1400000,5,0,ED3,OHF
+LNU,34,W80,FMO,1400000,3,1,ED3,OHF
+LNU,28,W80,QD4,500000,5,1,ED3,D28
+LNU,28,W80,FMO,550000,3,0,ED3,D28
+LNU,25,W80,QD4,1700000,3,0,M0Z,D28
+LNU,34,WS8,QD4,1300000,4,0,ED3,D28
+LNU,31,W80,QD4,1650000,7,1,M0Z,D28
+LNU,28,W80,QD4,1450000,4,0,M0Z,OHF
+LNU,33,WS8,QD4,650000,6,1,ED3,D28
+LNU,34,W80,QD4,1050000,6,0,ED3,OHF
+LNU,28,WS8,QD4,600000,3,0,ED3,D28
+LNU,31,WS8,QD4,1300000,4,1,ED3,D28
+LNU,31,W80,QD4,1350000,3,0,ED3,OHF
+LNU,26,W80,QD4,500000,5,1,ED3,D28
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+I6E,28,W80,QD4,1250000,2,0,M0Z,D28
+I6E,28,W80,QD4,1200000,4,1,ED3,OHF
+I6E,27,WS8,QD4,850000,5,1,ED3,D28
+I6E,25,W80,FMO,1150000,7,0,ED3,D28
+I6E,27,WS8,QD4,500000,4,0,ED3,D28
+I6E,30,W80,FMO,650000,7,0,ED3,D28
+I6E,27,W80,FMO,800000,7,0,ED3,D28
+I6E,29,W80,QD4,1200000,5,0,ED3,D28
+I6E,29,W80,QD4,500000,4,0,ED3,D28
+I6E,27,WS8,QD4,500000,3,1,ED3,D28
+I6E,28,W80,QD4,800000,5,1,ED3,D28
+I6E,28,W80,QD4,750000,6,1,ED3,D28
+I6E,26,W80,QD4,600000,4,1,ED3,D28
+I6E,26,W80,QD4,750000,4,1,ED3,D28
+I6E,30,W80,FMO,550000,3,0,ED3,D28
+
+B.
+LNU,32,WS8,QD4,800000,3,0,M0Z,D28
+LNU,26,W80,QD4,1400000,5,0,ED3,OHF
+LNU,28,WS8,QD4,600000,7,1,ED3,D28
+LNU,33,W80,QD4,550000,3,1,ED3,D28
+LNU,26,WS8,QD4,1450000,5,0,M0Z,OHF
+LNU,25,W80,FMO,1700000,3,0,M0Z,D28
+LNU,26,WS8,QD4,1450000,3,0,M0Z,OHF
+LNU,34,W80,QD4,1500000,4,0,M0Z,OHF
+LNU,33,WS8,QD4,650000,5,1,ED3,D28
+LNU,25,W80,QD4,1700000,4,0,M0Z,D28
+LNU,29,W80,QD4,1050000,4,0,ED3,D28
+LNU,28,W80,QD4,1100000,4,1,ED3,D28
+LNU,34,W80,FMO,1300000,5,0,M0Z,D28
+LNU,34,W80,QD4,850000,4,0,ED3,D28
+LNU,28,W80,QD4,500000,5,1,ED3,D28
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+I6E,28,WS8,QD4,600000,2,0,M0Z,D28
+I6E,29,W80,QD4,1050000,9,0,ED3,D28
+I6E,31,WS8,QD4,1200000,7,1,ED3,D28
+I6E,29,W80,QD4,1200000,4,0,ED3,D28
+I6E,28,W80,QD4,500000,5,0,ED3,D28
+I6E,34,W80,QD4,850000,4,0,ED3,OHF
+I6E,28,W80,QD4,700000,5,1,ED3,D28
+I6E,28,WS8,QD4,300000,5,1,ED3,D28
+I6E,32,WS8,QD4,800000,4,0,M0Z,OHF
+I6E,32,WS8,QD4,850000,4,0,M0Z,D28
+I6E,25,W80,FMO,1150000,3,1,ED3,OHF
+I6E,29,W80,QD4,500000,3,1,ED3,D28
+I6E,29,W80,QD4,1200000,7,1,ED3,D28
+I6E,28,W80,QD4,700000,2,1,ED3,D28
+I6E,29,W80,QD4,350000,9,0,ED3,D28
+
+B.
+LNU,27,WS8,QD4,500000,5,0,ED3,D28
+LNU,32,WS8,QD4,800000,9,0,ED3,OHF
+LNU,29,W80,QD4,600000,4,0,ED3,D28
+LNU,28,W80,QD4,1450000,4,0,M0Z,OHF
+LNU,33,WS8,QD4,400000,6,0,ED3,D28
+LNU,29,W80,QD4,1350000,4,0,ED3,OHF
+LNU,31,W80,QD4,1350000,3,0,ED3,OHF
+LNU,29,W80,QD4,1350000,4,0,M0Z,OHF
+LNU,34,W80,QD4,1500000,3,0,M0Z,OHF
+LNU,34,WS8,QD4,1300000,8,0,ED3,D28
+LNU,27,WS8,QD4,500000,4,0,ED3,D28
+LNU,26,WS8,QD4,550000,4,0,ED3,D28
+LNU,34,W80,QD4,1000000,8,0,ED3,D28
+LNU,29,W80,QD4,1200000,5,0,M0Z,D28
+LNU,31,W80,QD4,1350000,3,0,ED3,OHF
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad
+A.
+I6E,25,WS8,QD4,750000,3,1,ED3,D28
+I6E,28,WS8,QD4,300000,4,0,ED3,D28
+I6E,31,W80,QD4,950000,7,0,M0Z,D28
+I6E,29,W80,QD4,1200000,8,1,ED3,D28
+I6E,31,W80,QD4,950000,5,1,ED3,D28
+I6E,34,W80,QD4,700000,2,0,ED3,D28
+I6E,28,W80,QD4,500000,6,1,ED3,D28
+I6E,27,WS8,QD4,850000,2,0,ED3,D28
+I6E,26,W80,QD4,450000,4,0,ED3,D28
+I6E,26,W80,QD4,600000,4,1,ED3,D28
+I6E,26,WS8,QD4,500000,5,1,ED3,D28
+I6E,31,WS8,QD4,400000,3,0,ED3,D28
+I6E,27,WS8,QD4,500000,4,0,ED3,D28
+I6E,28,W80,QD4,800000,4,0,ED3,D28
+I6E,32,WS8,QD4,350000,9,1,ED3,D28
+
+B.
+LNU,33,WS8,QD4,800000,6,0,ED3,D28
+LNU,29,W80,QD4,1200000,3,1,ED3,OHF
+LNU,28,W80,QD4,800000,6,0,ED3,OHF
+LNU,28,W80,QD4,600000,3,0,ED3,D28
+LNU,27,W80,FMO,1550000,6,1,M0Z,D28
+LNU,26,WS8,QD4,1450000,3,1,M0Z,OHF
+LNU,32,WS8,QD4,800000,9,0,ED3,OHF
+LNU,31,W80,QD4,1400000,6,0,ED3,OHF
+LNU,31,WS8,QD4,1500000,3,0,M0Z,OHF
+LNU,33,W80,QD4,1200000,7,0,ED3,D28
+LNU,33,W80,QD4,1400000,4,0,ED3,OHF
+LNU,27,WS8,QD4,500000,5,0,ED3,D28
+LNU,28,W80,QD4,800000,6,0,ED3,OHF
+LNU,34,W80,QD4,700000,6,0,ED3,D28
+LNU,30,W80,FMO,550000,3,0,ED3,D28
+
+
+Target,Age,Employment Type,GraduateOrNot,AnnualIncome,FamilyMembers,ChronicDiseases,FrequentFlyer,EverTravelledAbroad

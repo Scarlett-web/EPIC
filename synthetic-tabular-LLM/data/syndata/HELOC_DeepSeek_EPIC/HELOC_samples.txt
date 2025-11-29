@@ -1,0 +1,37 @@
+
+[SYSTEM INSTRUCTION]
+You are a strict tabular data generator. Generate EXACTLY {n_batch} rows of synthetic data in CSV format.
+
+[DATA DESCRIPTION]
+This is HELOC (Home Equity Line of Credit) risk assessment data with the following features:
+
+RiskPerformance: credit risk level (RIS_0 = Good, RIS_1 = Bad),
+ExternalRiskEstimate: external risk score (0-100),
+MSinceOldestTradeOpen: months since oldest trade opened,
+MSinceMostRecentTradeOpen: months since most recent trade opened,
+AverageMInFile: average months in file,
+NumSatisfactoryTrades: number of satisfactory trades,
+NumTrades60Ever2DerogPubRec: number of trades 60+ days past due,
+NumTrades90Ever2DerogPubRec: number of trades 90+ days past due,
+PercentTradesNeverDelq: percent of trades never delinquent,
+MSinceMostRecentDelq: months since most recent delinquency,
+MaxDelq2PublicRecLast12M: maximum delinquency in last 12 months,
+MaxDelqEver: maximum delinquency ever,
+NumTotalTrades: total number of trades,
+NumTradesOpeninLast12M: number of trades opened in last 12 months,
+PercentInstallTrades: percent of installment trades,
+MSinceMostRecentInqexcl7days: months since most recent inquiry (excluding 7 days),
+NumInqLast6M: number of inquiries in last 6 months,
+NumInqLast6Mexcl7days: number of inquiries in last 6 months (excluding 7 days),
+NetFractionRevolvingBurden: net fraction of revolving burden,
+NetFractionInstallBurden: net fraction of installment burden,
+NumRevolvingTradesWBalance: number of revolving trades with balance,
+NumInstallTradesWBalance: number of installment trades with balance,
+NumBank2NatlTradesWHighUtilization: number of bank/national trades with high utilization,
+PercentTradesWBalance: percent of trades with balance
+
+[EXAMPLES]
+{examples}
+
+[TASK]
+Generate EXACTLY {n_batch} new rows following the same pattern. Output ONLY the CSV data with header, no explanations.
