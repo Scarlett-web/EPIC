@@ -72,9 +72,9 @@
   
   [√] 解决 API 连接与解析 Bug
   
-  [ ] 运行下游分类任务 (Classification)，验证数据质量 (F1 Score)
+  [√] 运行下游分类任务 (Classification)，验证数据质量 (F1 Score)
   
-  [ ] 尝试其他数据集 (可选)
+  [√] 尝试其他数据集 (可选)
   
 # Troubleshooting:
   
